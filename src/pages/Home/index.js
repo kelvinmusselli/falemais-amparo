@@ -1,9 +1,13 @@
 import React from 'react';
+import { Container } from './styles';
+import FormCall from '../../components/FormCall';
 
-// import { Container } from './styles';
-
-function Home() {
-  return <div />;
-}
+const Home = () => {
+  return (
+    <Container>
+      <FormCall />
+    </Container>
+  );
+};
 
 export default Home;

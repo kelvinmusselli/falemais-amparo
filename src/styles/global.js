@@ -12,5 +12,5 @@ body {
   text-rendering: optimizeLegibility !important;
   -webkit-font-smoothing: antialiased !important;
   width: 100%;
-  font-family: sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
 }`;
