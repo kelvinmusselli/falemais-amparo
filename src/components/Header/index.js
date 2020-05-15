@@ -8,7 +8,14 @@ const Header = () => {
       <Link to="/">
         <h1>Fale Mais</h1>
       </Link>
-      <h4>{'pageActual'}</h4>
+      <div>
+        <Link to="/prices">
+          <h4>Taxas</h4>
+        </Link>
+        <Link to="/">
+          <h4>Calcular</h4>
+        </Link>
+      </div>
     </Container>
   );
 };
